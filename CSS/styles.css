@@ -1,0 +1,78 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+.jumbotron{
+  background: url("http://unsplash.com/photos/cCHfM8sU944/download?force=true");
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  height: 100%;
+}
+
+.navbar {
+  margin: 0;
+}
+
+ #header-img {
+   height: 35px;
+   width: 35px;
+ }
+#content {
+  text-align: center;
+  padding-top: 25%;
+  color: #e6ebef;
+}
+
+#content h1 {
+  font-weight: 700;
+  font-size: 4em;
+}
+
+hr {
+  width: 400px;
+}
+
+#video-player {
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#email {
+  padding: 10px;
+  width: 300px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn {
+  background: #f0d361;
+  margin: 0 0 0 10px;
+}
+
+.btn:hover {
+  background: #ccc;
+}
+
+@media (max-width: 500px) {
+  hr {
+    width: 100%;
+  }
+  #content h1 {
+    font-size: 2em;
+  }
+  #email {
+    width: 200px;
+  }
+}
